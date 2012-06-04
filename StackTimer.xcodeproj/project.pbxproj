@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4BA7AD157C55E70018AC79 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4BA7AC157C55E70018AC79 /* Carbon.framework */; };
+		FD5C50511579074C001464B1 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FD5C50501579074C001464B1 /* icon.icns */; };
+		FD5C5065157907BA001464B1 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5C5061157907BA001464B1 /* digital-7 (italic).ttf */; };
+		FD5C5068157907BA001464B1 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD5C5064157907BA001464B1 /* readme.txt */; };
+		FD5C5069157907C0001464B1 /* digital-7 (italic).ttf in Copy Files */ = {isa = PBXBuildFile; fileRef = FD5C5061157907BA001464B1 /* digital-7 (italic).ttf */; };
+		FD5C506C157907C0001464B1 /* readme.txt in Copy Files */ = {isa = PBXBuildFile; fileRef = FD5C5064157907BA001464B1 /* readme.txt */; };
+		FD67529A1578B1A6005A98AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6752991578B1A6005A98AE /* Cocoa.framework */; };
+		FD6752A41578B1A6005A98AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6752A21578B1A6005A98AE /* InfoPlist.strings */; };
+		FD6752A61578B1A6005A98AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6752A51578B1A6005A98AE /* main.m */; };
+		FD6752AA1578B1A6005A98AE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD6752A81578B1A6005A98AE /* Credits.rtf */; };
+		FD6752AD1578B1A6005A98AE /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6752AC1578B1A6005A98AE /* STAppDelegate.m */; };
+		FD6752B01578B1A6005A98AE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6752AE1578B1A6005A98AE /* MainMenu.xib */; };
+		FD6752B81578B1A6005A98AE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6752B71578B1A6005A98AE /* SenTestingKit.framework */; };
+		FD6752B91578B1A6005A98AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6752991578B1A6005A98AE /* Cocoa.framework */; };
+		FD6752C11578B1A6005A98AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6752BF1578B1A6005A98AE /* InfoPlist.strings */; };
+		FD6752C41578B1A6005A98AE /* StackTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6752C31578B1A6005A98AE /* StackTimerTests.m */; };
+		FD6752F71578BD21005A98AE /* STStackTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6752F61578BD21005A98AE /* STStackTimer.m */; };
+		FD6752F81578BD21005A98AE /* STStackTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6752F61578BD21005A98AE /* STStackTimer.m */; };
+		FD6752FB1578D143005A98AE /* StackTaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD6752F91578D143005A98AE /* StackTaskModel.xcdatamodeld */; };
+		FD6752FC1578D143005A98AE /* StackTaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD6752F91578D143005A98AE /* StackTaskModel.xcdatamodeld */; };
+		FD6752FF1578D248005A98AE /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6752FE1578D247005A98AE /* Task.m */; };
+		FD6753001578D248005A98AE /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6752FE1578D247005A98AE /* Task.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6752BA1578B1A6005A98AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD67528C1578B1A6005A98AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6752941578B1A6005A98AE;
+			remoteInfo = StackTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD6752E71578B67B005A98AE /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				FD5C5069157907C0001464B1 /* digital-7 (italic).ttf in Copy Files */,
+				FD5C506C157907C0001464B1 /* readme.txt in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD4BA7AC157C55E70018AC79 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		FD5C50501579074C001464B1 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		FD5C5061157907BA001464B1 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7 (italic).ttf"; path = "Fonts/digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		FD5C5064157907BA001464B1 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.txt; path = Fonts/readme.txt; sourceTree = "<group>"; };
+		FD6752951578B1A6005A98AE /* StackTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6752991578B1A6005A98AE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FD67529C1578B1A6005A98AE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FD67529D1578B1A6005A98AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FD67529E1578B1A6005A98AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD6752A11578B1A6005A98AE /* StackTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackTimer-Info.plist"; sourceTree = "<group>"; };
+		FD6752A31578B1A6005A98AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD6752A51578B1A6005A98AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD6752A71578B1A6005A98AE /* StackTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackTimer-Prefix.pch"; sourceTree = "<group>"; };
+		FD6752A91578B1A6005A98AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FD6752AB1578B1A6005A98AE /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		FD6752AC1578B1A6005A98AE /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		FD6752AF1578B1A6005A98AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FD6752B61578B1A6005A98AE /* StackTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6752B71578B1A6005A98AE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FD6752BE1578B1A6005A98AE /* StackTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackTimerTests-Info.plist"; sourceTree = "<group>"; };
+		FD6752C01578B1A6005A98AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD6752C21578B1A6005A98AE /* StackTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackTimerTests.h; sourceTree = "<group>"; };
+		FD6752C31578B1A6005A98AE /* StackTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackTimerTests.m; sourceTree = "<group>"; };
+		FD6752F51578BD21005A98AE /* STStackTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStackTimer.h; sourceTree = "<group>"; };
+		FD6752F61578BD21005A98AE /* STStackTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStackTimer.m; sourceTree = "<group>"; };
+		FD6752FA1578D143005A98AE /* StackTaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StackTaskModel.xcdatamodel; sourceTree = "<group>"; };
+		FD6752FD1578D247005A98AE /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		FD6752FE1578D247005A98AE /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6752921578B1A6005A98AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4BA7AD157C55E70018AC79 /* Carbon.framework in Frameworks */,
+				FD67529A1578B1A6005A98AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6752B21578B1A6005A98AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6752B81578B1A6005A98AE /* SenTestingKit.framework in Frameworks */,
+				FD6752B91578B1A6005A98AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD67528A1578B1A5005A98AE = {
+			isa = PBXGroup;
+			children = (
+				FD5C50501579074C001464B1 /* icon.icns */,
+				FD6752F01578B6D6005A98AE /* Fonts */,
+				FD67529F1578B1A6005A98AE /* StackTimer */,
+				FD6752BC1578B1A6005A98AE /* StackTimerTests */,
+				FD6752981578B1A6005A98AE /* Frameworks */,
+				FD6752961578B1A6005A98AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6752961578B1A6005A98AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6752951578B1A6005A98AE /* StackTimer.app */,
+				FD6752B61578B1A6005A98AE /* StackTimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6752981578B1A6005A98AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BA7AC157C55E70018AC79 /* Carbon.framework */,
+				FD6752991578B1A6005A98AE /* Cocoa.framework */,
+				FD6752B71578B1A6005A98AE /* SenTestingKit.framework */,
+				FD67529B1578B1A6005A98AE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD67529B1578B1A6005A98AE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD67529C1578B1A6005A98AE /* AppKit.framework */,
+				FD67529D1578B1A6005A98AE /* CoreData.framework */,
+				FD67529E1578B1A6005A98AE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FD67529F1578B1A6005A98AE /* StackTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FD6752AB1578B1A6005A98AE /* STAppDelegate.h */,
+				FD6752AC1578B1A6005A98AE /* STAppDelegate.m */,
+				FD6752AE1578B1A6005A98AE /* MainMenu.xib */,
+				FD6752A01578B1A6005A98AE /* Supporting Files */,
+				FD6752F51578BD21005A98AE /* STStackTimer.h */,
+				FD6752F61578BD21005A98AE /* STStackTimer.m */,
+				FD6752F91578D143005A98AE /* StackTaskModel.xcdatamodeld */,
+				FD6752FD1578D247005A98AE /* Task.h */,
+				FD6752FE1578D247005A98AE /* Task.m */,
+			);
+			path = StackTimer;
+			sourceTree = "<group>";
+		};
+		FD6752A01578B1A6005A98AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6752A11578B1A6005A98AE /* StackTimer-Info.plist */,
+				FD6752A21578B1A6005A98AE /* InfoPlist.strings */,
+				FD6752A51578B1A6005A98AE /* main.m */,
+				FD6752A71578B1A6005A98AE /* StackTimer-Prefix.pch */,
+				FD6752A81578B1A6005A98AE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6752BC1578B1A6005A98AE /* StackTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6752C21578B1A6005A98AE /* StackTimerTests.h */,
+				FD6752C31578B1A6005A98AE /* StackTimerTests.m */,
+				FD6752BD1578B1A6005A98AE /* Supporting Files */,
+			);
+			path = StackTimerTests;
+			sourceTree = "<group>";
+		};
+		FD6752BD1578B1A6005A98AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6752BE1578B1A6005A98AE /* StackTimerTests-Info.plist */,
+				FD6752BF1578B1A6005A98AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6752F01578B6D6005A98AE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C5061157907BA001464B1 /* digital-7 (italic).ttf */,
+				FD5C5064157907BA001464B1 /* readme.txt */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6752941578B1A6005A98AE /* StackTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6752C71578B1A6005A98AE /* Build configuration list for PBXNativeTarget "StackTimer" */;
+			buildPhases = (
+				FD6752911578B1A6005A98AE /* Sources */,
+				FD6752921578B1A6005A98AE /* Frameworks */,
+				FD6752931578B1A6005A98AE /* Resources */,
+				FD6752E71578B67B005A98AE /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackTimer;
+			productName = StackTimer;
+			productReference = FD6752951578B1A6005A98AE /* StackTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD6752B51578B1A6005A98AE /* StackTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6752CA1578B1A6005A98AE /* Build configuration list for PBXNativeTarget "StackTimerTests" */;
+			buildPhases = (
+				FD6752B11578B1A6005A98AE /* Sources */,
+				FD6752B21578B1A6005A98AE /* Frameworks */,
+				FD6752B31578B1A6005A98AE /* Resources */,
+				FD6752B41578B1A6005A98AE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6752BB1578B1A6005A98AE /* PBXTargetDependency */,
+			);
+			name = StackTimerTests;
+			productName = StackTimerTests;
+			productReference = FD6752B61578B1A6005A98AE /* StackTimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD67528C1578B1A6005A98AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = kkung.net;
+			};
+			buildConfigurationList = FD67528F1578B1A6005A98AE /* Build configuration list for PBXProject "StackTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD67528A1578B1A5005A98AE;
+			productRefGroup = FD6752961578B1A6005A98AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6752941578B1A6005A98AE /* StackTimer */,
+				FD6752B51578B1A6005A98AE /* StackTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6752931578B1A6005A98AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6752A41578B1A6005A98AE /* InfoPlist.strings in Resources */,
+				FD6752AA1578B1A6005A98AE /* Credits.rtf in Resources */,
+				FD6752B01578B1A6005A98AE /* MainMenu.xib in Resources */,
+				FD5C50511579074C001464B1 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6752B31578B1A6005A98AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6752C11578B1A6005A98AE /* InfoPlist.strings in Resources */,
+				FD5C5065157907BA001464B1 /* digital-7 (italic).ttf in Resources */,
+				FD5C5068157907BA001464B1 /* readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FD6752B41578B1A6005A98AE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6752911578B1A6005A98AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6752A61578B1A6005A98AE /* main.m in Sources */,
+				FD6752AD1578B1A6005A98AE /* STAppDelegate.m in Sources */,
+				FD6752F71578BD21005A98AE /* STStackTimer.m in Sources */,
+				FD6752FB1578D143005A98AE /* StackTaskModel.xcdatamodeld in Sources */,
+				FD6752FF1578D248005A98AE /* Task.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6752B11578B1A6005A98AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6752C41578B1A6005A98AE /* StackTimerTests.m in Sources */,
+				FD6752F81578BD21005A98AE /* STStackTimer.m in Sources */,
+				FD6752FC1578D143005A98AE /* StackTaskModel.xcdatamodeld in Sources */,
+				FD6753001578D248005A98AE /* Task.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD6752BB1578B1A6005A98AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6752941578B1A6005A98AE /* StackTimer */;
+			targetProxy = FD6752BA1578B1A6005A98AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD6752A21578B1A6005A98AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6752A31578B1A6005A98AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD6752A81578B1A6005A98AE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6752A91578B1A6005A98AE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FD6752AE1578B1A6005A98AE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6752AF1578B1A6005A98AE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FD6752BF1578B1A6005A98AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6752C01578B1A6005A98AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6752C51578B1A6005A98AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD6752C61578B1A6005A98AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FD6752C81578B1A6005A98AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackTimer/StackTimer-Prefix.pch";
+				INFOPLIST_FILE = "StackTimer/StackTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD6752C91578B1A6005A98AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackTimer/StackTimer-Prefix.pch";
+				INFOPLIST_FILE = "StackTimer/StackTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FD6752CB1578B1A6005A98AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StackTimer.app/Contents/MacOS/StackTimer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackTimer/StackTimer-Prefix.pch";
+				INFOPLIST_FILE = "StackTimerTests/StackTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FD6752CC1578B1A6005A98AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StackTimer.app/Contents/MacOS/StackTimer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackTimer/StackTimer-Prefix.pch";
+				INFOPLIST_FILE = "StackTimerTests/StackTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD67528F1578B1A6005A98AE /* Build configuration list for PBXProject "StackTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6752C51578B1A6005A98AE /* Debug */,
+				FD6752C61578B1A6005A98AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6752C71578B1A6005A98AE /* Build configuration list for PBXNativeTarget "StackTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6752C81578B1A6005A98AE /* Debug */,
+				FD6752C91578B1A6005A98AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6752CA1578B1A6005A98AE /* Build configuration list for PBXNativeTarget "StackTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6752CB1578B1A6005A98AE /* Debug */,
+				FD6752CC1578B1A6005A98AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD6752F91578D143005A98AE /* StackTaskModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD6752FA1578D143005A98AE /* StackTaskModel.xcdatamodel */,
+			);
+			currentVersion = FD6752FA1578D143005A98AE /* StackTaskModel.xcdatamodel */;
+			path = StackTaskModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD67528C1578B1A6005A98AE /* Project object */;
+}
